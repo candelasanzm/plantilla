@@ -24,4 +24,4 @@ def test_benchmark_esPrimo_7 (benchmark):
     assert benchmark (esPrimo, 7) == True
 
 def test_benchmark_esPrimo_12 (benchmark):
-    assert benchmark(esPrimo, 12) == True
+    assert benchmark(esPrimo, 12) == False
