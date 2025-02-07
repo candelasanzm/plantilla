@@ -13,7 +13,7 @@ def inserta_ordenado(lista :list, num :int) -> list:
             res = lista[:pos] + [num] + lista[pos:]
     return res
 
-pares = []
+"""pares = []
 impares = []
 for num in lista:
     if num % 2 == 0:
@@ -21,4 +21,4 @@ for num in lista:
     else:
         impares = inserta_ordenado(impares, num)
 print(pares)
-print(impares)
+print(impares)"""
